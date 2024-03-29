@@ -1,0 +1,127 @@
+.container{
+    width: 100%;
+    height: 100%;
+    margin: 37px 41px;
+    /* display: flex; */
+}
+
+.side_bar {
+    width: 25%;
+    max-width: 469px;
+    height: 100%;
+    /* margin-top: 37px; */
+    margin-left: 41;
+    position: absolute;
+    background-color: rgb(225, 189, 218);
+    padding-top: 41px;
+
+}
+/* .side_bar div{
+    display: block;
+} */
+.side_bar_avatar {
+width: 100%;
+max-width: 350px;
+margin: 38px auto;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+
+.avatar{
+    /* display: flex; */
+    /* position: relative; */
+    background-color: rgb(163, 144, 118);
+    border-radius: 50%;
+    width: 95%;
+    height: 95%;
+    max-width: 350px;
+    max-height: 350px;
+    /* padding: 0 auto;
+    align-items: center;
+    justify-content: center; */
+}
+.side_bar_slogan {
+    font-style: italic;
+    opacity: 75%;
+    max-width: 350px;
+    margin:38px auto ;
+}
+
+.slogan{
+    padding: auto;
+    vertical-align: middle;
+    text-align: center;
+    max-width: 350px;
+}
+.side_bar_info {
+width: 100%;
+font-weight: 500;
+}
+.left_column {
+float: left;
+font-weight: 500;
+padding-left: 5px;
+}
+
+.right_column {
+float: right;
+padding-right: 5px;
+}
+.side_bar_skill {
+    display: flex;
+    width: 95%;
+    max-width: 350px;
+    justify-content: center;
+    align-items: center;
+    margin: 38px auto;
+}
+.side_bar_skill_block {
+    display: block;
+    width: 100%;
+    height: 40px;
+    /* text-align: center;
+    justify-content: center;
+    align-items: center; */
+    padding: 3%;
+    background-color: blanchedalmond;
+    margin: 0 3%;
+}
+
+.skill_name{
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    /* padding: auto; */
+}
+
+.side_bar_contacts {
+}
+.main_bar {
+    margin-left: 25%;
+    padding: 50px;
+    /* position: absolute; */
+    height: 100%;
+}
+.main_bar_name {
+}
+.main_bar_about {
+}
+.about {
+}
+.main_bar_expepience {
+}
+.main_bar_skill {
+}
+.skill_javascript {
+}
+.skill_vue {
+}
+.skill_scss {
+}
+.skill_git {
+}
+.main_bar_education {
+}
+.main_bar_ {
+}
