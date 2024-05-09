@@ -26,56 +26,115 @@
         </div>
         <div class="side_bar_skill"> 
             <div class="side_bar_skill_block">
-                <span class="side_bar_skill_block_lable">JS</span>
+                <div class="side_bar_skill_block_lable">JS</div>
             </div>
             <div class="side_bar_skill_block">
-                <span class="side_bar_skill_block_lable">VUE</span>
+                <div class="side_bar_skill_block_lable">VUE</div>
             </div>
             <div class="side_bar_skill_block">
-                <span class="side_bar_skill_block_lable">Vite</span>
+                <div class="side_bar_skill_block_lable">Vite</div>
             </div>
             <div class="side_bar_skill_block">
-                <span class="side_bar_skill_block_lable">Pinia</span>
+                <div class="side_bar_skill_block_lable">Pinia</div>
             </div>
             <div class="side_bar_skill_block">
-                <span class="side_bar_skill_block_lable">SCSS</span>
+                <div class="side_bar_skill_block_lable">SCSS</div>
             </div>
         </div>
         <div class="side_bar_contacts">
-            <span>tg <br></span>
-            <span>git</span>
-            <span>mail</span>
-            <span>tel</span>
+            <div class="sidebar_contacts_img"><img src="icons/email.png" alt="Email" class="contact_img"></div>
+            <div class="sidebar_contacts_img"><img src="icons/github.png" alt="Git" class="contact_img"></div>
+            <div class="sidebar_contacts_img"><img src="icons/phone.png" alt="Phone" class="contact_img"></div>
+            <div class="sidebar_contacts_img"><img src="icons/telegram.png" alt="Telegram" class="contact_img"></div>
         </div>
     </div>
+
+
+    <!-- MAIN BAR -->
+
+
     <div class="main_bar">
         <div class="main_bar_name"> <h1>Андрей Гончар</h1></div>
         <div class="main_bar_about">
+            <h2>О себе:</h2>
             <h4 class="about">
-                В данный момент ищу возможность расширять и применять уже имеющиеся навыки. При работе с кодом я внимателен и увлечен, так как и дальше хочу развиваться в области frontend-разработки. Свое свободное время уделяю пленочной фотографии и велопрогулкам.
+                Начал свой it путь в декабре 2021 года. В 2022 году окончил учебный центр при Бауманском университете по специальности «Основы Frontend разработки», после чего начала развитие в этой траектории. Много самостоятельно обучался и развивался в web-технологиях. Уверен, что мой опыт поможет быстрее вникнуть в проекты и производственные процессы вашей компании. Активно слежу за новостями в мире frontend и IT в целом.
+Помимо it: предпочитаю уделять пленочной фотографии и велопрогулкам.
             </h4>
         </div>
-        <div class="main_bar_expepience"></div>
+        <div class="main_bar_experience">
+            <h2>Опыт работы:</h2>
+            <div class="experience_slot">
+                <h3 class="company_name">SRB Focus</h3>
+                <div class="position">
+                    <h3 class="h_position"> Frontend-разработчик</h3>
+                </div>
+                <div class="position_description">
+                    <h4 class="h_position_description">Участвовал в разработке приложения для спортсменов-триатлонистов<br>
+                        Стек проекта: TypeScript, native js, HTML, CSS, SCSS, Vue.js, Git, Webpack,API, Vuex, Pinia.
+                        Результатом моей работы стали:<br>
+                        • Разработанный дизайн-концепция приложения (UI/UX) <br>
+                        • Создана библиотека компонентов<br>
+                        • Разработана логика общения компонентов<br>
+                        • Настроено общение backend (был написан на JAVA) с клиентом<br>
+                        Также в мои обязанности входило: Помощь старшему разработчику, исследование взаимодействия открытых API с с клиентской частью разрабатываемого приложения</h4>
+                </div>
+
+            </div>
+            <hr>
+            <div class="experience_slot">
+                <h3 class="company_name">Self/Study project</h3>
+                <div class="position">
+                    <h3 class="h_position">Frontend-разработчик</h3>
+                </div>
+                <div class="position_description">
+                    <h4 class="h_position_description">В репозиториях (https://github.com/andreigon) реализованы такие проекты как: <br>
+                        1. Web-comics переработанный дизайн оригинального сайта XKCD.com с сохранением оригинального функционала. Использован готовый дизайн из Figma. Примененне технологии: Vue, TypeScript, Vite, pinia.
+                        C использованием открытого API и последующей обработкой и отображения данных из JSON файла.<br>
+                        https://github.com/andreigon/web-comics <br>
+                        2. Виджет погоды с возможностью смены геолокации и просмотра погоды онлайн
+                        Виджет который получает и отображающий текущую погоду из открытого API. Погода отображается пиктограммой и базовыми метео-параметрами. Виджет может работать как самостоятельное веб-приложение, так и возможно интегрировать в уже готовый сайт.<br>
+                        https://github.com/andreigon/weather-widget-vanillaJS </br>
+                        Коммиты и пул-реквесты в репозиториях под ником andreigon</h4>
+                </div>
+
+            </div>
+        </div>
         <div class="main_bar_skill">
+            <h2>Skills:</h2>
             <div>
-                <input type="range" class="skill_javascript" name="js" value="80" disabled>
+                <input type="range" class="skill_javascript" min="1"  max="100" name="js" value="80" disabled>
                 <label for="js">Java Script</label>
             </div>
             <div>
-                <input type="range" class="skill_vue" name="vue" value="70" disabled>
+                <input type="range" class="skill_vue" min="1"  max="100" name="vue" value="70" disabled>
                 <label for="vue">Vue</label>
             </div>
             <div>
-                <input type="range" class="skill_scss" name="scss" value="100" disabled>
+                <input type="range" class="skill_scss" min="1"  max="100" name="scss" value="100" disabled>
                 <label for="scss">SCSS</label>
             </div>
             <div>
-                <input type="range" class="skill_git" name="git" value="60" disabled>
+                <input type="range" class="skill_git" min="1"  max="100" name="git" value="60" disabled>
                 <label for="git">GIT</label>
             </div>
         </div>
-        <div class="main_bar_education"></div>
-        <div class="main_bar_"></div>
+        <div class="main_bar_education">
+            <h2>Образование:</h2>
+            <div class="education_slot">
+                <div class="education_name">Учебный центр "Специалист" при МГТУ им. Н.Э.Баумана</div>
+                <div class="education_description">Факультет Дополнительного образования, Основы Frontend разработки</div>
+            </div>
+            <div class="education_slot">
+                <div class="education_name">Учебный центр "Специалист" при МГТУ им. Н.Э.Баумана</div>
+                <div class="education_description">Факультет Дополнительного образования, Основы Backend разработки</div>
+            </div>
+            <div class="education_slot">
+                <div class="education_name">Санкт-Петербургский государственный университет аэрокосмического приборостроения</div>
+                <div class="education_description">Факультет Радиотехники электроники и связи, Лазерная техника и лазерные технологии</div>
+            </div>
+        </div>
+        <!-- <div class="main_bar_"></div> -->
 
 
     </div>

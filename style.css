@@ -1,5 +1,5 @@
 .container{
-    width: 100%;
+    width: auto;
     height: 100%;
     margin: 37px 41px;
     /* display: flex; */
@@ -70,6 +70,7 @@ float: right;
 padding-right: 5px;
 }
 .side_bar_skill {
+    flex-wrap: wrap;
     display: flex;
     /* position: relative; */
     width: 100%;
@@ -89,7 +90,7 @@ padding-right: 5px;
     align-items: center; */
     padding: 5px;
     background-color: blanchedalmond;
-    margin: 0 3%;
+    margin: 3px 3%;
 }
 
 .side_bar_skill_block_lable{
@@ -101,6 +102,23 @@ padding-right: 5px;
 }
 
 .side_bar_contacts {
+    flex-wrap: wrap;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar_contacts_img{
+    margin: 10px;
+}
+
+.contact_img{
+    height: 30px;
+    width: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
 }
 .main_bar {
     margin-left: 25%;
